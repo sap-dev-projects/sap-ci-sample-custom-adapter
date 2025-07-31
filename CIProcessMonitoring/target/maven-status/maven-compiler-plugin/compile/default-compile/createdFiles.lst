@@ -1,0 +1,4 @@
+au/omv/dev/cpi/process/logger/CIProcessMonitoringProducer.class
+au/omv/dev/cpi/process/logger/CIProcessMonitoringEndpoint.class
+au/omv/dev/cpi/process/logger/CIProcessMonitoringConsumer.class
+au/omv/dev/cpi/process/logger/CIProcessMonitoringComponent.class

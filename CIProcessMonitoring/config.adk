@@ -1,0 +1,6 @@
+#Properties file
+Reuse-Component=false
+Adapter-Name=CIProcessMonitoring
+Adapter-Vendor=omv-dev
+Adapter-ID=ZCIProcessMonitoring
+Adapter-Version=1.0.0

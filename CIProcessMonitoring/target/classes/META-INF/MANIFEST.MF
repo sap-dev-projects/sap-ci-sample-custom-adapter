@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1748860199577
+Build-Jdk: 23.0.2
+Built-By: I530286
+Bundle-ManifestVersion: 2
+Bundle-Name: au.omv.dev.cpi.process.logger.CIProcessMonitoring
+Bundle-SymbolicName: au.omv.dev.cpi.process.logger.CIProcessMonitoring
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: au.omv.dev.cpi.process.logger;uses:="org.apache.camel,or
+ g.apache.camel.impl,org.apache.camel.spi";version="1.0.0.SNAPSHOT"
+Import-Package: org.apache.camel,org.apache.camel.impl,org.apache.camel.
+ spi,org.slf4j
+Tool: Bnd-2.1.0.20130426-122213

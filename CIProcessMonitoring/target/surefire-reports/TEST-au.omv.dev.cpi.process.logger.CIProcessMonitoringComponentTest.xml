@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="au.omv.dev.cpi.process.logger.CIProcessMonitoringComponentTest" time="1.333" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/I530286/Documents/IdeaProjects/SAP_CPI/Custom_Adapter/ZCIProcessMonitoring/CIProcessMonitoring/target/test-classes:/Users/I530286/Documents/IdeaProjects/SAP_CPI/Custom_Adapter/ZCIProcessMonitoring/CIProcessMonitoring/target/classes:/Users/I530286/.m2/repository/com/sap/cloud/adk/com.sap.cloud.adk.build.archive/1.38.0/com.sap.cloud.adk.build.archive-1.38.0.jar:/Users/I530286/.m2/repository/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar:/Users/I530286/.m2/repository/org/apache/aries/subsystem/org.apache.aries.subsystem.api/1.1.0/org.apache.aries.subsystem.api-1.1.0.jar:/Users/I530286/.m2/repository/org/apache/aries/org.apache.aries.util/1.1.0/org.apache.aries.util-1.1.0.jar:/Users/I530286/.m2/repository/org/ow2/asm/asm/6.2.1/asm-6.2.1.jar:/Users/I530286/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/I530286/.m2/repository/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar:/Users/I530286/.m2/repository/org/apache/camel/camel-core/2.24.2/camel-core-2.24.2.jar:/Users/I530286/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-core-2.3.0.jar:/Users/I530286/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-impl-2.3.0.jar:/Users/I530286/.m2/repository/org/apache/camel/camel-test/2.24.2/camel-test-2.24.2.jar:/Users/I530286/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/I530286/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/I530286/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar:/Users/I530286/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar:/Users/I530286/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="NL"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/I530286/Documents/IdeaProjects/SAP_CPI/Custom_Adapter/ZCIProcessMonitoring/CIProcessMonitoring/target/surefire/surefirebooter-20250602122957731_3.jar /Users/I530286/Documents/IdeaProjects/SAP_CPI/Custom_Adapter/ZCIProcessMonitoring/CIProcessMonitoring/target/surefire 2025-06-02T12-29-57_614-jvmRun1 surefire-20250602122957731_1tmp surefire_0-20250602122957731_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/I530286/Documents/IdeaProjects/SAP_CPI/Custom_Adapter/ZCIProcessMonitoring/CIProcessMonitoring/target/test-classes:/Users/I530286/Documents/IdeaProjects/SAP_CPI/Custom_Adapter/ZCIProcessMonitoring/CIProcessMonitoring/target/classes:/Users/I530286/.m2/repository/com/sap/cloud/adk/com.sap.cloud.adk.build.archive/1.38.0/com.sap.cloud.adk.build.archive-1.38.0.jar:/Users/I530286/.m2/repository/org/apache/maven/maven-plugin-api/2.0/maven-plugin-api-2.0.jar:/Users/I530286/.m2/repository/org/apache/aries/subsystem/org.apache.aries.subsystem.api/1.1.0/org.apache.aries.subsystem.api-1.1.0.jar:/Users/I530286/.m2/repository/org/apache/aries/org.apache.aries.util/1.1.0/org.apache.aries.util-1.1.0.jar:/Users/I530286/.m2/repository/org/ow2/asm/asm/6.2.1/asm-6.2.1.jar:/Users/I530286/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/I530286/.m2/repository/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar:/Users/I530286/.m2/repository/org/apache/camel/camel-core/2.24.2/camel-core-2.24.2.jar:/Users/I530286/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-core-2.3.0.jar:/Users/I530286/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-impl-2.3.0.jar:/Users/I530286/.m2/repository/org/apache/camel/camel-test/2.24.2/camel-test-2.24.2.jar:/Users/I530286/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/I530286/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/I530286/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar:/Users/I530286/.m2/repository/org/slf4j/slf4j-log4j12/1.6.1/slf4j-log4j12-1.6.1.jar:/Users/I530286/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/I530286"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/I530286/Documents/IdeaProjects/SAP_CPI/Custom_Adapter/ZCIProcessMonitoring/CIProcessMonitoring"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/I530286/Documents/IdeaProjects/SAP_CPI/Custom_Adapter/ZCIProcessMonitoring/CIProcessMonitoring/target/surefire/surefirebooter-20250602122957731_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.2"/>
+    <property name="user.name" value="I530286"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/I530286/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/cx/wd539vl51k53q2mbxv04wtgh0000gn/T/"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="/Users/I530286/Documents/IdeaProjects/SAP_CPI/Custom_Adapter/ZCIProcessMonitoring/CIProcessMonitoring"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/I530286/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="23.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="skiptests" value="true"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="testSample" classname="au.omv.dev.cpi.process.logger.CIProcessMonitoringComponentTest" time="1.287">
+    <system-out><![CDATA[Hello world1 (Consumer) Now it is Mon Jun 02 12:29:59 CEST 2025 (Producer) : HELLO WORLD2
+]]></system-out>
+    <system-err><![CDATA[log4j:WARN No appenders could be found for logger (au.omv.dev.cpi.process.logger.CIProcessMonitoringComponentTest).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+  </testcase>
+</testsuite>

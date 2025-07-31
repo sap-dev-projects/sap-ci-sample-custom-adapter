@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: au.omv.dev.cpi.process.logger.CIProcessMonitoringComponentTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.333 s -- in au.omv.dev.cpi.process.logger.CIProcessMonitoringComponentTest
