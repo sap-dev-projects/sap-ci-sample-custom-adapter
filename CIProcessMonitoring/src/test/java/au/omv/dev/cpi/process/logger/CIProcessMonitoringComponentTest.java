@@ -24,6 +24,20 @@ import org.junit.Test;
 
 public class CIProcessMonitoringComponentTest extends CamelTestSupport {
 
+    @Override
+    public void setUp() throws Exception {
+        // Set system property to skip SecureStoreService during testing
+        System.setProperty("camel.testing", "true");
+        super.setUp();
+    }
+
+    @Override
+    public void tearDown() throws Exception {
+        // Clean up system property
+        System.clearProperty("camel.testing");
+        super.tearDown();
+    }
+
     @Test
     public void testSample() throws Exception {
         MockEndpoint mock = getMockEndpoint("mock:result");

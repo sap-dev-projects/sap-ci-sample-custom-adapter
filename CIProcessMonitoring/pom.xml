@@ -28,6 +28,20 @@
       <version>${camel.version}</version>
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/com.sap.cloud.adk/generic.api -->
+    <dependency>
+       <groupId>com.sap.cloud.adk</groupId>
+       <artifactId>generic.api</artifactId>
+        <version>3.16.0</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.sap.cloud.adk/adapter.api -->
+    <dependency>
+      <groupId>com.sap.cloud.adk</groupId>
+      <artifactId>adapter.api</artifactId>
+      <version>3.16.0</version>
+    </dependency>
+
     <!-- testing -->
     <dependency>
       <groupId>org.apache.camel</groupId>
